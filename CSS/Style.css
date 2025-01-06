@@ -70,12 +70,163 @@ nav img{
     border: none;
     font-weight: 100;
     font-size: 14px;
+    background-color: transparent;
 }
 
 .lang label{
     font-weight: 400;
     font-size: 14px;
 }
+
+
+/* Background Decore image positionning  */
+
+header{
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.decore {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+
+    img{
+        width: 670px;
+        height: 550px;
+    };
+}
+
+/* Hero section  */
+
+.hero{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* border: 1px solid black; */
+    /* gap: 10px; */
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 40px;
+}
+    
+.left .left1{
+    color: #DF6951;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.left .under{
+    position: relative;
+}
+
+
+.left .under p{
+    color: #181E4B;
+    font-family: Volkhov;
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+
+.left .under img{
+    position: absolute;
+    top: 26%;
+    left: 38%;
+    z-index: -9;
+}
+
+.left .left2{
+    color: #5E6282;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 420px;
+    margin-top: 10px;
+}
+
+.left .playDemo-flex{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.left .playDemo-flex a{
+    color: #FFFFFF;
+    background-color: #F1A501;
+    border-radius: 10px ;
+    padding: 14px 18px;
+    font-size: 15px;
+    font-weight: 360;
+    line-height: 22.9px;
+}
+
+.left .playDemo-flex h3{
+    color: #686D77;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.left .playDemo-flex img{
+    padding-top: 31px;
+}
+
+
+.right{
+    position: relative;
+    /* border: 1px solid black; */
+
+}
+
+.right .plane1{
+    position: absolute;
+    top: 39px;
+    left: 85px;
+    img{
+        width: 137px;
+        height: 95px;
+    }
+}
+.right .plane2{
+    position: absolute;
+    top: 89px;
+    left: 430px;
+    z-index: -1;
+    img{
+        width: 137px;
+        height: 95px;
+    }
+}
+
+.right img{
+    width: 550px;
+    height: 550px;
+
+}
+
+
+
+
 
 
 
