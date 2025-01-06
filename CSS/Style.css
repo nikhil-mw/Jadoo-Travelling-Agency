@@ -145,12 +145,12 @@ header{
     text-align: left;
 }
 
-.left .under img{
-    position: absolute;
-    top: 26%;
-    left: 38%;
-    z-index: -9;
-}
+    .left .under img{
+        position: absolute;
+        top: 26%;
+        left: 38%;
+        z-index: -9;
+    }
 
 .left .left2{
     color: #5E6282;
@@ -194,7 +194,7 @@ header{
 
 .right{
     position: relative;
-    /* border: 1px solid black; */
+    
 
 }
 
@@ -448,12 +448,158 @@ header{
 }
 
 
+/* Book trip Section  */
 
 
+.booking{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 186px;
+}
 
 
+.booking h3{
+    color: #5E6282;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+}
 
 
+/* booking Left  */
+
+.booking-flex{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.booking-left-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.booking-left-flex h2{
+    color: #14183E;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-weight: 700;
+   
+
+}
+
+.booking-details-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 3rem;
+}
+
+.booking-info-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.6rem;
+    width: 420px;
+
+}
+
+.booking-info-flex h3{
+    color: #5E6282;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.booking-info-flex h4{
+    color: #5E6282;
+    font-family: Poppins;
+    font-size: 12.5px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 6px;
+}
 
 
+/* Booking Right */
+.booking-right{
+    align-self: center;
+    width: 40%;
+
+}
+
+.bookingcard-flex{
+    width: 370px;
+    height: 380px;
+    border-radius: 26px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.locationimg{
+    border-radius: 26px;
+    padding: 22px 0;
+    overflow: hidden;
+   
+}
+.locationimg img{
+    margin: auto;
+    border-radius: 26px;
+    transition: transform 0.2s ease-in-out;
+    overflow: hidden;
+}
+
+.hoverimg{
+    overflow: hidden;
+    display: flex; 
+    border-radius: 26px;
+}
+.locationimg img:hover{
+    transform: scale(1.2);
+}
+
+.location-details{
+    padding: 0 22px ;
+}
+
+
+.hotel-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.hotel-detail-1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.location-details p{
+    margin-top: 13px;
+}
+
+.booking-icon{
+    margin-top: 18px;
+}
+
+.booking-right{
+    position: relative;
+ 
+}
+
+.decore4{
+    position: absolute;
+    z-index: -1;
+    left: 610px;
+    
+}
 
