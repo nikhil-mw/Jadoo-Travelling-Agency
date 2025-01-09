@@ -279,6 +279,7 @@ header {
   text-align: center;
   box-shadow: 0px 15px 10px -10px #111;
   border-radius: 30px;
+  background-color: white;
   z-index: 10;
   img {
     width: 98px;
@@ -426,7 +427,8 @@ header {
 
 .decore3 {
   position: absolute;
-  left: 1240px;
+  left: 1170px;
+  z-index: -1;
 }
 
 /* Book trip Section  */
